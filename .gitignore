@@ -1,0 +1,43 @@
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+Thumbs.db
+
+# Логи и временные файлы
+*.log
+*.tmp
+*.temp
+
+# Кэш и зависимости
+node_modules/
+bower_components/
+.pnpm/
+.yarn/
+dist/
+build/
+.out/
+.next/
+.nuxt/
+
+# Конфиги с чувствительными данными
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+*.env
+secrets.json
+
+# Бинарные файлы
+*.exe
+*.dll
+*.so
+*.zip
+*.tar.gz
+
+# Системные файлы (macOS)
+._*
+.Spotlight-V100
+.Trashes
