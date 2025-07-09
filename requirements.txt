@@ -1,0 +1,8 @@
+Django==4.2
+requests==2.31.0
+lxml==4.9.3
+python-dotenv==1.0.0
+python-whois==0.9.3
+phonenumbers==8.13.11
+pytest==7.4.0
+pytest-django==4.5.2

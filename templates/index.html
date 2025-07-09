@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="card">
+    <div class="card-body">
+        <h2 class="card-title">Добро пожаловать!</h2>
+        <p class="card-text">
+            Этот сервис помогает определить принадлежность веб-сайта конкретной организации.
+            Введите данные организации и URL сайта для анализа.
+        </p>
+        <a href="{% url 'ownership_checker:analyze' %}" class="btn btn-primary">
+            Начать анализ
+        </a>
+    </div>
+</div>
+{% endblock %}
